@@ -1,0 +1,187 @@
+/*****
+*
+*
+* Author Name : Mostafiz Shamim
+* Author URI : https://mostafizshamim.com/
+* Description : This is a responsive HTML5 and Bootstrap portolio template developed my Mostafiz Shamim
+* Template URI : https://mostafizshamim.com/demo/folio/
+* Version : 1.1
+*
+*
+*****/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover, a:visited, a{
+	text-decoration: none;
+}
+/*header area*/
+.top-header{
+	background: #70469c;
+	position: fixed;
+	width: 100%;
+	z-index: 333;
+}
+.header-row{
+	margin: 0;
+	padding: 0;
+}
+.top-header img.logo{
+	float: left;
+	margin-top: 1px;
+	margin-bottom: 8px;
+	transition:all 0.7s ease 0s;
+	-webkit-transition:all 0.7s ease 0s;
+	-moz-transition:all 0.7s ease 0s;
+	-o-transition:all 0.7s ease 0s;
+	-ms-transition:all 0.7s ease 0s;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0;
+  margin-top: 23px;
+  transition:all 0.7s ease 0s;
+	-webkit-transition:all 0.7s ease 0s;
+	-moz-transition:all 0.7s ease 0s;
+	-o-transition:all 0.7s ease 0s;
+	-ms-transition:all 0.7s ease 0s;
+}
+.navbar-toggle span{
+	color: #fff;
+}
+ul.nav{
+	margin: 0;
+	padding: 0;
+}
+.navbar-default .navbar-nav>li>a {
+ 	font-size: 12px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 800;
+	transition: all .7s ease 0s;
+	-webkit-transition: all .7s ease 0s;
+	-moz-transition: all .7s ease 0s;
+	-o-transition: all .7s ease 0s;
+	-ms-transition: all .7s ease 0s;
+	padding: 12px 20px;
+	border-radius: 5px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: red;
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+  margin-top: 4px;
+}
+
+
+}
+/*about section*/
+.about{
+	background: #fff;
+}
+.about h2{
+	font-size: 46px;
+	color: #02918c;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+.about-heading img{
+	margin-bottom: 30px;
+}
+.about-heading p{
+	font-size: 16px;
+	color: #7e8287;
+	margin-bottom: 80px;
+
+}
+.about-heading p span{
+	font-size: 23px;
+}
+.single-about{
+	margin-bottom: 90px;
+}
+.single-about + .single-about{
+	border-left: 1px solid #d9dbdb;
+}
+.about-inside{
+	padding: 50px;
+}
+.single-about:hover{
+	background: purple;
+	color:  #70469c;
+}
+.about-inside h3{
+	font-size: 16px;
+	color: #7e8287;
+	font-weight: 800;
+}
+.about-inside p{
+	font-size: 11px;
+	color: #7e8287;
+}
+.about-inside i.fa{
+	color: #02918c;
+	font-size: 30px;
+}
+.single-about:hover .about-inside i.fa{
+	color: #fff;
+}
+.single-about:hover .about-inside p{
+	color: #fff;
+}
+.single-about:hover .about-inside h3{
+	color: #fff;
+}
+/* ------------------------------------------------------------------------------
+	Footer
+-------------------------------------------------------------------------------*/
+.footer {
+	text-align: center;
+}
+.footer p {
+	font-family: "Roboto", sans-serif;
+	font-size: 11px;
+	color: #7f7f7f;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.footer a {
+	color: #7f7f7f;
+}
+.footer a:hover {
+	color: #e84545;
+}
+.footer .footer-share {
+	margin-top: 0;
+}
+.footer .footer-share li {
+	background: #3d3d3d none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #ffffff;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	padding: 4px 0;
+	margin: 0 5px;
+	display: inline-block;
+	float: none;
+}
+.footer .footer-share a {
+	color: #fff;
+}
+.footer .fa-heart {
+	color: #e84545;
+	font-size: 11px;
+	margin: 0 2px;
+}
+  
+
+
